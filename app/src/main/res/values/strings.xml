@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">teskerty</string>
+
+    <string name="nav_open">Open Navigation</string>
+    <string name="nav_close">Close Navigation</string>
+
+
+</resources>

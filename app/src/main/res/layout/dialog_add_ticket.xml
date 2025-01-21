@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editStadiumName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stadium Name" />
+
+    <EditText
+        android:id="@+id/editMatchTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Match Time"
+         />
+
+    <!-- Left Team Logo -->
+    <Button
+        android:id="@+id/btnChooseLeftLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Left Logo" />
+    <ImageView
+        android:id="@+id/leftLogoPreview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp" />
+
+    <!-- Right Team Logo -->
+    <Button
+        android:id="@+id/btnChooseRightLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Right Logo" />
+    <ImageView
+        android:id="@+id/rightLogoPreview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp" />
+</LinearLayout>

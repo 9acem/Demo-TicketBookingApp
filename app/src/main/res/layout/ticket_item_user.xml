@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+    <!-- Top Section: Logos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Left Logo -->
+        <ImageView
+            android:id="@+id/leftLogoImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="Left Team Logo"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="10dp" />
+
+        <!-- Middle Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/stadiumName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stadium Name :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/matchTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Match Time: 7:00 PM"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#555" />
+        </LinearLayout>
+
+        <!-- Right Logo -->
+        <ImageView
+            android:id="@+id/rightLogoImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="Right Team Logo"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <!-- Reserve Ticket Button -->
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserve Ticket"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

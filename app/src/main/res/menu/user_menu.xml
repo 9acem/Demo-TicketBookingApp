@@ -1,0 +1,20 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Logout"
+        tools:ignore="HardcodedText"
+        android:icon="@drawable/ic_logout" />
+    <item
+        android:id="@+id/nav_dash_tic"
+        android:title="Ticket Dashbord"
+        tools:ignore="HardcodedText"
+        />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        tools:ignore="HardcodedText"
+        />
+
+
+</menu>
